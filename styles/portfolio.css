@@ -8,6 +8,12 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* header */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
 
 /* shared style */
 .text-primary{
@@ -49,4 +55,26 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
     color: ;
+}
+/* banner-style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 580px;
+    height: 676px;
 }
