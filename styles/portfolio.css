@@ -8,6 +8,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+.text-center{
+    text-align: center;
+}
+
 /* header */
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
@@ -97,12 +101,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about style */
 .about{
     
     padding: 130px 150px;
     border-radius: 10px;
-    margin-top: 130px
+
 }
 .about-items{
     display: flex;
@@ -117,4 +125,15 @@ main{
     padding: 50px 80px ;
     margin: 0 auto;
 
+}
+/* skill section */
+.skill-cointainer{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgb(212, 210, 210);
 }
